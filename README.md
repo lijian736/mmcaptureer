@@ -16,3 +16,4 @@ mmcapturer/library/ffmpeg-4.4-full_build-shared
 mmcapturer/library/SDL2-2.0.14
 
 软件截图:
+![Image text](https://gitee.com/videoaudioer/mmcapturer/raw/master/screenshot/screenshot.png)
