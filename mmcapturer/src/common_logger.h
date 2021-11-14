@@ -91,7 +91,7 @@ public:
 	AppLogger &operator=(const AppLogger &&) = delete;
 
 	//constructor
-	//@param£ºstrPrefixName -- file name prefix
+	//@param: strPrefixName -- file name prefix
 	AppLogger(const std::string &strPrefixName);
 	virtual ~AppLogger();
 
@@ -99,7 +99,7 @@ public:
 	void set_log_type(LogType type);
 
 	//initialize
-	//@param£ºstrLogPath -- file directory
+	//@param:strLogPath -- file directory
 	//      bDaily -- whether file name contains daily date info
 	//      nMaxSize -- file max size, in kb
 	//      nMaxFile -- max file count
@@ -122,7 +122,7 @@ protected:
 
 private:
 	//write log
-	//@param£º
+	//@param:
 	//      filename -- source file name
 	//       linenumber -- code line number
 	//       msgType -- msg type£¬[E],[W],[I],[D],[V], are error, warning, info, debug, verbose
