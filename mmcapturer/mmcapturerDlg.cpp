@@ -301,6 +301,8 @@ bool CmmcapturerDlg::decode_video(const AVCodecID& codecID, unsigned char *data,
 			render_video_frame(render);
 		}
 	}
+
+	return true;
 }
 
 bool CmmcapturerDlg::process_yuv_or_rgb(unsigned char *data,
